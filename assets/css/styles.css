@@ -1,0 +1,154 @@
+/* VARIABLES */
+:root {
+    font-size: 62.5%;
+    --color-background: #babdbe;
+    --color-main: #001524;
+    --color-second: #dfe3ea;
+    --color-third: #ffecd1;
+    --color-text: #ffecd1;
+   
+}
+
+/* GENERAL STYLES */
+body {
+    background-color: var(--color-background);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text);
+}
+
+/* HEADER */
+
+.header {
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    }
+
+.header__heading{
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+
+.header__contact {
+    display: flex;
+    justify-content:center;
+    background-color: var(--color-third);
+    border-radius: 6rem;
+    overflow: hidden;
+}
+
+.header__contact__icon{
+   color: var(--color-main);
+   background-color: rgb(151, 246, 9);
+   height: 6rem;
+   margin: 1.5rem;
+   border-radius: 5rem;
+}
+
+
+/* NAV-BAR */
+
+.nav-bar {
+    /* height: 50rem; */
+    background-color: var(--color-main);
+
+    color: var(--color-text);
+}
+
+
+
+
+.nav-bar__item {
+    display: none;
+    padding: 2rem;
+}
+
+.nav-bar__toggle {
+    text-align: center;
+    position:absolute;
+    right: 2rem;
+    top: .1rem;
+    font-size: 4rem;
+}
+
+
+
+.large-logo {
+    background-color: var(--color-background);
+}
+
+.logo-img {
+    max-height: 50rem;
+    margin: auto;
+
+}
+
+/* STEPS */
+
+.steps {
+    height: 80rem;
+    background-color: var(--color-main);
+    text-align: center;
+
+    /* color: var(--color-third) */
+    /* border-radius: solid blue;
+    border: solid 3px blue; */
+}
+
+.steps__header{
+
+    width: 80%;
+    padding: 3rem;
+    margin: auto;
+
+    font-size: 3.5rem;
+
+    border: solid 10px var(--color-main);
+    background-color: var(--color-third);
+    border-radius: 9rem;
+}
+
+.steps__square {
+    margin: 1rem 2rem;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.steps__square--top {
+    height: 25rem;
+    padding-top: 3rem;
+    background-color: var(--color-main);
+    color: var(--color-background);
+}
+
+.steps__square--bottom {
+    height: 25rem;
+    padding-top: 3rem;
+    background-color: var(--color-third);
+    color: var(--color-main);
+}
+
+.square__icons--large {
+    font-size: 10rem;
+}
+
+.square__icons--midium {
+    font-size: 8rem;
+    margin: 1rem;
+}
+
+.steps span {
+    display: block;
+    color: var(--color-text)
+}
