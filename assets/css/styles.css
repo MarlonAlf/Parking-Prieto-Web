@@ -5,7 +5,7 @@
     --color-main: #001524;
     --color-second: #dfe3ea;
     --color-third: #ffecd1;
-    --color-text: #ffecd1;
+    
    
 }
 
@@ -32,11 +32,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 6rem;
     font-weight: bold;
     }
-
 .header__heading{
+    display: flex;
     background-color: var(--color-main);
     color: var(--color-text);
 }
+
+.header__icon {
+    height: 10rem;
+    width: 10rem;
+    background-color: yellow;
+}
+
+.header__name{
+    margin-left: 15%;
+    color: var(--color-third)
+}
+
 
 
 .header__contact {
@@ -81,8 +93,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 4rem;
 }
 
-
-
 .large-logo {
     background-color: var(--color-background);
 }
@@ -90,7 +100,6 @@ h1, h2, h3, h4, h5, h6 {
 .logo-img {
     max-height: 50rem;
     margin: auto;
-
 }
 
 /* STEPS */
@@ -106,7 +115,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .steps__header{
-
     width: 80%;
     padding: 3rem;
     margin: auto;
@@ -152,3 +160,40 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     color: var(--color-text)
 }
+
+/* Reviews */
+
+.reviews {
+    height: 90rem;
+}
+
+.reviews__headings{
+    text-align: center;
+    margin: 2rem;
+}
+
+.reviews__box {
+    width: 85%;
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: var(--color-second);
+
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: solid var(--color-main) 1px;
+}
+
+.reviews__starts {
+   display: flex; 
+}
+
+.reviews__starts li {
+    
+    color: green;
+}
+
+.reviews__box small {
+    font-weight: bold;
+}
+
+
