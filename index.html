@@ -14,15 +14,16 @@
     <!-- HEADER -->
         <header class="header">
             <div class="header__heading">
-                <img src="assets/images/logo_parking.png"  class="header__icon" alt="icon">
-                <p class="header__name">PARKING PRIETO</p> 
+                <img src="assets/images/logo_parking.png"  class="header__icon" alt="Icon">
+                <p class="header__name">PARKING PRIETO SEVILLA</p> 
             </div>
+            <a href="tel:+34 603 91 82 30">
                 <div class="header__contact">
-                    <p>Sevilla</p>
+                    <!-- <p>En Sevilla..</p> -->
+                    <span class="header__contact__tel">Llamanos Ahora!</span>
                     <i class="fa-brands fa-whatsapp header__contact__icon"></i>
-                    <span class="header__contact__tel ">+34 603 91 82 30</span>
                 </div>
-        
+             </a>    
         </header>
 
     <!-- NAV-BAR -->
@@ -56,13 +57,21 @@
             </li>
         </ul>
     </nav>
-
-            <div class="large-logo">
-                <img src="assets/images/logo_parking.png" alt="Large Logo" class="logo-img">
-            </div>
-            <div class="hero-image">
-                <img src="assets/images/parking-1.jpg" alt="parkin" class="logo-img">
-            </div>
+    <!-- HERO -->
+    <div class="large-logo">
+        <img class="logo-img" src="assets/images/logo_parking.png" alt="Large Logo" >
+    </div>
+    <div class="hero__img">
+        <img src="assets/images/parking-1.jpg" alt="parking image">
+    </div>
+    <div class="hero__text">
+        <h3>Junto al Aeropuerto de Sevilla. </h3>
+        <h3>ÚNICO CON PLAZAS CUBIERTAS!</h3>
+    </div>
+    
+    <div class="map">               
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6336.76062452937!2d-5.8864479105250505!3d37.42811953764647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126755ea0eef63%3A0xf3bedeafbb60ae02!2sParking%20Prieto%20Aeropuerto%20Sevilla!5e0!3m2!1sen!2ses!4v1732484991068!5m2!1sen!2ses" width="900" height="800" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
         <!-- STEPS -->
         <container class="steps">
@@ -161,5 +170,60 @@
               </div>
 
         </section>
+
+        <!--SOCIAL-->
+        <section class="social">
+            <ul>
+                <li class="social__list">
+                    <a href="#" class="social__links">
+                        <i class="social__icon fa-brands fa-facebook"></i>
+                        <span class="social__overlay">Facebook</span>
+                    </a>
+                    <a href="#">
+                </li>
+            </ul>
+
+            <ul>
+                <li class="social__list">
+                    <a href="#" class="social__links">
+                        <i class="social__icon fa-brands fa-instagram-square"></i>
+                        <span class="social__overlay">Instagram</span>
+                    </a>
+                    <a href="#">
+                </li>
+            </ul>
+
+            <ul>
+                <li class="social__list">
+                    <a href="#" class="social__links">
+                        <i class="social__icon fa-brands fa-google"></i>
+                        <span class="social__overlay">Maps</span>
+                    </a>
+                    <a href="#">
+                </li>
+            </ul>
+        </section>
+
+        <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer_contact">
+            <h2 class="contact__title">Contacto</h2>
+            <p class="contact__p"> Estamos 24 / 7 a su dispoción, no dude en contactarnos, ó pase a visitarnos en Bda. del Avión 49 Sevilla</p>
+        </div>
+        <div class="footer__form">
+            <form>
+                <h4>Nombre</h4>
+                <input class="form__box" type="text" value=""> 
+                <h4>Correo electrónico</h4>
+                <input class="form__box"  type="text" value=""> 
+                <h4>Mensaje</h4>
+                <input class="form__box" type="text" value="">
+                <button class="form__button text__underline" type="submit" value="">EVIAR MENSAJE</button> 
+            </form>
+        </div>     
+    </footer>
+    <div class="fotter__copyright">
+        &copy; 2024 Parking Prieto España
+    </div>
     </body>
 </html>

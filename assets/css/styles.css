@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 6rem;
     font-weight: bold;
     }
+
 .header__heading{
     display: flex;
     background-color: var(--color-main);
@@ -42,18 +43,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 10rem;
     width: 10rem;
     background-color: yellow;
+    border-radius: 2rem;
 }
 
 .header__name{
-    margin-left: 15%;
+    margin-left: 5rem;
     color: var(--color-third)
 }
-
-
 
 .header__contact {
     display: flex;
     justify-content:center;
+    margin: auto;
+    width: 96%;
     background-color: var(--color-third);
     border-radius: 6rem;
     overflow: hidden;
@@ -93,13 +95,39 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 4rem;
 }
 
+/* HERO */
+
 .large-logo {
-    background-color: var(--color-background);
+    /* background-color: var(--color-background); */
 }
 
 .logo-img {
     max-height: 50rem;
-    margin: auto;
+    margin: 3rem auto;
+    background-color: yellow;
+    border-radius: 10rem;
+}
+
+.hero__text {
+    margin: 3rem;
+    color: yellow;
+    background-color: var(--color-main);
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.hero__img {
+    margin: 3rem;
+    overflow: hidden;
+    border-radius: 3rem;
+}
+
+.map {
+    margin: 3rem;
+}
+
+.map iframe{
+    border-radius: 3rem;
 }
 
 /* STEPS */
@@ -108,10 +136,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 80rem;
     background-color: var(--color-main);
     text-align: center;
-
-    /* color: var(--color-third) */
-    /* border-radius: solid blue;
-    border: solid 3px blue; */
 }
 
 .steps__header{
@@ -164,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Reviews */
 
 .reviews {
-    height: 90rem;
+    /* height: auto; */
 }
 
 .reviews__headings{
@@ -196,4 +220,69 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+/* SOCIAL  */
 
+.social {
+    width: 100%;
+    height: 10rem;;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--color-main);
+    font-size: 4rem;
+    /* color: var(--color-background); */
+    background-color: var(--color-third);
+    line-height: 10rem;;
+}
+
+/* FOOTER  */
+
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 6vw;
+    color: var(--color-background);
+    background-color: var(--color-main);
+}
+
+
+.footer_contact {
+    width: 35vw;
+}
+
+.contact__title {
+    font-size: 6rem;
+}
+
+.contact__p {
+    font-size: 3rem;
+}
+
+.footer__form {
+    width: 45%;
+    font-size: 3rem;
+}
+
+.form__box {
+    height: 5rem;
+    outline: 30;
+    border-width: 0 0 2px; 
+    margin-bottom: 3vw; 
+}
+
+
+.form__button {
+    position: relative;
+    left: 12rem;
+    /* outline: 0; */
+    border-width: 0 0 6px; 
+    background-color: var(--color-third);
+    color: var(--color-main);
+
+}
+
+.fotter__copyright {
+    font-size: 3rem;
+    text-align: center;
+}
