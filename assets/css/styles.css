@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 6rem;
     font-weight: bold;
+    z-index: 99;
     }
 
 .header__heading{
@@ -47,8 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__name{
-    margin-left: 5rem;
-    color: var(--color-third)
+    width: 100%;
+    color: var(--color-third);
+    text-align: center;
 }
 
 .header__contact {
@@ -101,6 +103,25 @@ h1, h2, h3, h4, h5, h6 {
     /* background-color: var(--color-background); */
 }
 
+.hero__offer {
+    position: absolute;
+    top: 31rem;
+    left: 52vw;
+    
+    padding: 3rem;
+    width: 50rem;
+
+    /* color: rgb(36, 87, 228); */
+    font-weight: bold;
+    font-size: 4.3rem;
+    
+    background-image: url("/assets/images/brush-stroke4.png");
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    rotate: 45deg;
+}
+
 .logo-img {
     max-height: 50rem;
     margin: 3rem auto;
@@ -122,11 +143,16 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3rem;
 }
 
+.hero__img img {
+    width: 100vw;
+}
+
 .map {
     margin: 3rem;
 }
 
 .map iframe{
+    width: 100vw;
     border-radius: 3rem;
 }
 
@@ -283,6 +309,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fotter__copyright {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
